@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "448363857590",
+    "project_id": "messenger-8c12d",
+    "storage_bucket": "messenger-8c12d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448363857590:android:5f07b6bf4ed32da7c54817",
+        "android_client_info": {
+          "package_name": "com.gazi.ozan.messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrQdetXjsepdPc27zieaTvrM_5SzXc6DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
