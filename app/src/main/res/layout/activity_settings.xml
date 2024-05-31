@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/w1"
+    android:background="@drawable/ap3"
     tools:context=".SettingsActivity">
 
     <ImageView
@@ -59,7 +59,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
-                android:text="Username"
+                android:text="Kullanıcı Adı"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -68,7 +68,7 @@
                 android:id="@+id/txtUsername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Username"
+                android:hint="Kullanıcı Adını Giriniz"
                 android:inputType="textPersonName"
                 android:textColor="@color/white"
                 android:textColorHint="#FFCCCC" />
@@ -86,7 +86,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
-                android:text="About"
+                android:text="Durum"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -95,7 +95,7 @@
                 android:id="@+id/etStatus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="About"
+                android:hint="Konuşamam yalnızca mesaj"
                 android:inputType="textPersonName"
                 android:textColor="@color/white"
                 android:textColorHint="#FFCCCC" />
@@ -112,9 +112,9 @@
             android:layout_marginBottom="5dp"
             android:background="@drawable/btn_bg"
             android:padding="5dp"
-            android:text="Save"
+            android:text="Kaydet"
             android:textAllCaps="false"
-            android:textColor="@color/colorPrimary" />
+            android:textColor="@color/geceMavisi" />
 
     </LinearLayout>
 
@@ -134,9 +134,10 @@
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
             android:drawableLeft="@drawable/privacy"
+            android:drawableTint="@color/geceMavisi"
             android:drawablePadding="21dp"
             android:padding="10dp"
-            android:text="Privacy Policy"
+            android:text="Gizlilik Politikası"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -148,9 +149,10 @@
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
             android:drawableLeft="@drawable/about"
+            android:drawableTint="@color/geceMavisi"
             android:drawablePadding="26.5dp"
             android:padding="10dp"
-            android:text="About us"
+            android:text="Hakkımızda"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -162,9 +164,10 @@
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
             android:drawableLeft="@drawable/invite"
+            android:drawableTint="@color/geceMavisi"
             android:drawablePadding="25dp"
             android:padding="10dp"
-            android:text="Invite a Friend"
+            android:text="Arkadaş Davet Et"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -176,9 +179,10 @@
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
             android:drawableLeft="@drawable/notification"
+            android:drawableTint="@color/geceMavisi"
             android:drawablePadding="20dp"
             android:padding="10dp"
-            android:text="Notifications"
+            android:text="Bildirimler"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -190,9 +194,10 @@
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
             android:drawableLeft="@drawable/help"
+            android:drawableTint="@color/geceMavisi"
             android:drawablePadding="26.5dp"
             android:padding="10dp"
-            android:text="Help"
+            android:text="Yardım"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />

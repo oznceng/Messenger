@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal">
 
     <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image1"
         android:layout_width="96dp"
         android:layout_height="96dp"
-        android:id="@+id/profile_image"
         android:layout_marginLeft="5dp"
         android:padding="5dp"
         android:src="@drawable/avatar3"
@@ -22,27 +22,24 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/userNameList1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/userNameList"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
             android:text="Ozan Demir"
+            android:textColor="@color/black"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/status"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/lastMessage"
             android:paddingTop="2dp"
             android:paddingBottom="2dp"
-            android:text="" />
-
-
+            android:text="Status" />
 
     </LinearLayout>
-
 
 </LinearLayout>

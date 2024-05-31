@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/w1"
+    android:background="@drawable/ap3"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".SignInActivity">
@@ -24,7 +24,8 @@
             android:id="@+id/imageView"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/ic_whatsapp" />
+            android:src="@drawable/simge5"
+            />
 
         <EditText
             android:id="@+id/txtEmail"
@@ -33,7 +34,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:ems="10"
-            android:hint="Email"
+            android:hint="E-Posta"
             android:inputType="textEmailAddress"
             android:padding="9dp"
             android:textColor="@color/white"
@@ -44,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Password"
+            android:hint="Şifre"
             android:inputType="textPassword"
             android:padding="9dp"
             android:textColor="@color/white"
@@ -57,7 +58,7 @@
             android:layout_gravity="right"
             android:gravity="right"
             android:padding="5dp"
-            android:text="Click to Sign Up"
+            android:text="Kayıt Ol"
             android:textColor="@color/white"
             android:textSize="17sp"
             android:textStyle="bold" />
@@ -67,9 +68,9 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:backgroundTint="@color/design_default_color_secondary_variant"
+            android:backgroundTint="@color/acikYesil"
             android:padding="15dp"
-            android:text="Sign In"
+            android:text="Giriş Yap"
             android:textAllCaps="false"
             app:cornerRadius="8dp" />
 
@@ -109,16 +110,6 @@
                 app:cornerRadius="8dp" />
 
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/txtSignUpPhone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="Sign Up with Phone"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold" />
 
     </LinearLayout>
 

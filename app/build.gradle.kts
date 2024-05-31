@@ -47,6 +47,9 @@ dependencies {
     implementation(libs.firebase.database)
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation ("com.squareup.picasso:picasso:2.8")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("androidx.core:core:1.6.0")
+    implementation ("androidx.core:core-ktx:1.6.0")
     implementation ("com.google.android.gms:play-services-auth:19.0.0")
     implementation(libs.firebase.storage)
 
