@@ -42,10 +42,10 @@ public class FragmentAdapter extends FragmentPagerAdapter {
 
         String title = null;
         if (position == 0) {
-            title = "CHATS";
+            title = "MESAJ";
         }
         if (position == 1) {
-            title = "STATUS";
+            title = "DURUM";
         }
         //if (position == 2) {
             //title = "CALLS";

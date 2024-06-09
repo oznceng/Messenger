@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/settings"
-        android:title="Settings"/>
+        android:title="Ayarlar"/>
 
     <item android:id="@+id/groupChat"
-        android:title="Group Chat"/>
+        android:title="Grup Mesaj"/>
 
     <item android:id="@+id/logout"
-        android:title="Logout"/>
+        android:title="Çıkış"/>
 
 </menu>
